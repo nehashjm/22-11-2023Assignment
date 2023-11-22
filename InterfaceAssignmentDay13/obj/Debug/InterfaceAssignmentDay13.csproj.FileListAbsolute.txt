@@ -1,0 +1,7 @@
+D:\mphasis Simplilearn\Day13\InterfaceAssignmentDay13\InterfaceAssignmentDay13\bin\Debug\InterfaceAssignmentDay13.exe.config
+D:\mphasis Simplilearn\Day13\InterfaceAssignmentDay13\InterfaceAssignmentDay13\bin\Debug\InterfaceAssignmentDay13.exe
+D:\mphasis Simplilearn\Day13\InterfaceAssignmentDay13\InterfaceAssignmentDay13\bin\Debug\InterfaceAssignmentDay13.pdb
+D:\mphasis Simplilearn\Day13\InterfaceAssignmentDay13\InterfaceAssignmentDay13\obj\Debug\InterfaceAssignmentDay13.csproj.AssemblyReference.cache
+D:\mphasis Simplilearn\Day13\InterfaceAssignmentDay13\InterfaceAssignmentDay13\obj\Debug\InterfaceAssignmentDay13.csproj.CoreCompileInputs.cache
+D:\mphasis Simplilearn\Day13\InterfaceAssignmentDay13\InterfaceAssignmentDay13\obj\Debug\InterfaceAssignmentDay13.exe
+D:\mphasis Simplilearn\Day13\InterfaceAssignmentDay13\InterfaceAssignmentDay13\obj\Debug\InterfaceAssignmentDay13.pdb
