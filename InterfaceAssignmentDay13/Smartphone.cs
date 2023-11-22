@@ -8,19 +8,29 @@ namespace InterfaceAssignmentDay13
 {
     public class Smartphone : IRechargable, IConnectable, IDisplayable
     {
-        void IConnectable.Dispay()
+        bool isconnected;
+        int chtime;
+        string details;
+
+        public bool Connect()
         {
-            Console.WriteLine("I am an Iconnectable smartphone class");
+            Console.WriteLine("enter if smartphone is connected");
+            isconnected = Boolean.Parse(Console.ReadLine());
+            return isconnected;
+
         }
 
-        void IRechargable.Display()
+        public int charge(int min)
         {
-            Console.WriteLine("I am a smartphone class");
+            Console.WriteLine("enter if smartphone chargein time");
+            chtime = int.Parse(Console.ReadLine());
+            return chtime;
         }
-
-        void IDisplayable.Display()
+        public string display()
         {
-            Console.WriteLine("I am an IDisplayable smartphone class");
+            Console.WriteLine("Enter your smartphone details");
+            details = Console.ReadLine();
+            return details;
         }
     }
 }

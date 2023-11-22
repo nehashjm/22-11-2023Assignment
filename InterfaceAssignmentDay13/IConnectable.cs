@@ -8,6 +8,6 @@ namespace InterfaceAssignmentDay13
 {
     public interface IConnectable
     {
-        void Dispay();
+        bool Connect();
     }
 }

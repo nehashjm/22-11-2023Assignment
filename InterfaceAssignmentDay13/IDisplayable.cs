@@ -8,6 +8,6 @@ namespace InterfaceAssignmentDay13
 {
     public interface IDisplayable
     {
-        void Display();
+        string display();
     }
 }

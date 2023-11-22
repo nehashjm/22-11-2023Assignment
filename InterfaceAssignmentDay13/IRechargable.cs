@@ -7,7 +7,10 @@ using System.Threading.Tasks;
 namespace InterfaceAssignmentDay13
 {
     public interface IRechargable
-    {
-        void Display();
-    }
+    
+         {
+        int charge(int min);
+
+    
+}
 }

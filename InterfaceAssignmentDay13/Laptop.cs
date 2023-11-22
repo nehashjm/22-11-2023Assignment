@@ -8,19 +8,28 @@ namespace InterfaceAssignmentDay13
 {
     public class Laptop : IConnectable, IRechargable, IDisplayable
     {
-        void IConnectable.Dispay()
+        bool isconnected;
+        int chtime;
+        string details;
+
+        public bool Connect()
         {
-            Console.WriteLine("I am an Iconnectable Laptop class");
+            Console.WriteLine("enter if laptop is connected");
+            isconnected = Boolean.Parse(Console.ReadLine());
+            return isconnected;
+
         }
 
-        void IRechargable.Display()
+        public int charge(int min)
         {
-            Console.WriteLine("I am an IRechargable Laptop class");
+            chtime = min;
+            return chtime;
         }
-
-        void IDisplayable.Display()
+        public string display()
         {
-            Console.WriteLine("I am an IDisplayable Laptop class");
+            Console.WriteLine("Enter your laptop details");
+            details = Console.ReadLine();
+            return details;
         }
     }
 }

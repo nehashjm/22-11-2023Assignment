@@ -10,20 +10,15 @@ namespace InterfaceAssignmentDay13
     {
         static void Main(string[] args)
         {
-            Laptop lap = new Laptop();
-            IConnectable connectable = lap;
-            connectable.Dispay();
-            IRechargable rechargable = lap;
-            rechargable.Display();
-            IDisplayable dispayable = lap;
-            dispayable.Display();
-            Smartphone smt = new Smartphone();
-            IConnectable connectable1 = smt;
-            connectable1.Dispay();
-            IDisplayable connectable2 = smt;
-            connectable2.Display();
-            IRechargable connectable3 = smt;
-            connectable3.Display();
+            Laptop laptop = new Laptop();
+            Console.WriteLine("Is the laptop connected?\t" + laptop.Connect());
+            Console.WriteLine("Time taken to charge the laptop is" + laptop.charge(50) + "min");
+            Console.WriteLine("Laptop details" + laptop.display());
+
+            Smartphone smartphone = new Smartphone();
+            Console.WriteLine("Is the smartphone connected?\t" + smartphone.Connect());
+            Console.WriteLine("Time taken to charge the laptop is" + smartphone.charge(50) + "min");
+            Console.WriteLine("Laptop details" + smartphone.display());
             Console.ReadKey();
 
         }
